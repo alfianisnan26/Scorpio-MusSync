@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "src/main/java/App",
+            "vmArgs": "--enable-preview --module-path \"D:/Program Files/JAVA/javafx-sdk-16/lib\" --add-modules javafx.controls,javafx.fxml,javafx.media --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED",
+            "projectName": "ScorpioJava_5a4bbe36"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "vmArgs": "--enable-preview --module-path \"D:/Program Files/JAVA/javafx-sdk-16/lib\" --add-modules javafx.controls,javafx.fxml,javafx.media --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+    ]
+}

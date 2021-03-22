@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="15" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="App" />
+    <module name="ScorpioJava" />
+    <option name="VM_PARAMETERS" value="--module-path &quot;$PROJECT_DIR$/../../Program Files/JAVA/javafx-sdk-16/lib&quot; --add-modules javafx.controls,javafx.fxml,javafx.media" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
